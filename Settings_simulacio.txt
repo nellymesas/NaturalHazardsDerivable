@@ -1,0 +1,62 @@
+# than comments are only set by a leading pound sign
+# and projectfilename really should be the very first item 
+# in this file
+# please leave all the other items landscapefile adjustments file 
+# etc empty unless you want to override the project file. 
+#projectfilename =.fpj
+
+version			= 43
+adjustmentFile 		= .adj
+fuelmoisturefile 	= .fms
+landscapeFile		= .lcp
+weatherFile0 		= .wtr
+windFile0 		= .wnd
+timestep 		= 0m
+visibleStep 		= 60m
+secondaryVisibleStep 	= 24h
+perimeterResolution 	= 100m
+distanceResolution 	= 100m
+
+enableCrownfire 		= false
+linkCrownDensityAndCover 	= false
+embersFromTorchingTrees 	= false
+enableSpotFireGrowth 		= false
+nwnsBackingROS 			= false
+fireacceleration		= false
+accelerationtranstion		= 1m
+distanceChecking 		= fireLevel
+simulatePostFrontalCombustion 	= false
+fuelInputOption 		= absent
+calculationPrecision 		= normal
+useConditioningPeriod 		= false 
+ignitionFile 			= .shp
+ignitionFileType 		= polygon
+
+#fuelmodelfile  = .FMD
+
+#this should be east and then north white space delimited
+#note that gridrow and east north must both be set
+
+StartMonth 	=
+StartDay 	= 
+StartHour 	= 
+StartMin 	= 
+EndMonth	=
+EndDay 		=
+EndHour 	= 
+EndMin 		= 
+RastMake 	= true
+RasterFileName 	= /raster
+VectMake 	= true
+VectorFileName 	= /vector.VCT
+ShapeMake 	= true
+shapefile 	= /shape.shp
+
+RAST_ARRIVALTIME 	= true
+RAST_FIREINTENSITY 	= false
+RAST_SPREADRATE 	= false
+RAST_FLAMELENGTH 	= false
+RAST_HEATPERAREA 	= false
+RAST_CROWNFIRE 		= false
+RAST_FIREDIRECTION 	= false
+RAST_REACTIONINTENSITY 	= false
